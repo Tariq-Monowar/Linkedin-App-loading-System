@@ -4,8 +4,8 @@ import { MotiView } from "@motify/components";
 import { StyleSheet, View } from "react-native";
 import { Easing } from "react-native-reanimated";
 
-const dotColor = "#f97752"; // Color of the dot
-const backgroundColor = "#fff"; // Background color of the dot
+const dotColor = "#f97752";
+const backgroundColor = "#fff";
 const dotSize = 40;
 
 const App = () => {
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#0b66c3",
     width: 70,
     height: 70,
-    borderRadius: 50, // To make it a circle
+    borderRadius: 50,
     alignItems: "center",
     justifyContent: "center",
   },
